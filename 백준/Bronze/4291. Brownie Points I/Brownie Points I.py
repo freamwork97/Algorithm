@@ -5,7 +5,7 @@ while True:
     o = 0
     xl = []
     yl = []
-    b = int(input())
+    b = int(sys.stdin.readline())
     if b == 0:
         break
     for _ in range(b):
