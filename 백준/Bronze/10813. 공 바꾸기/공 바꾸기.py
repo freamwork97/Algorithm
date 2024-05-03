@@ -1,5 +1,5 @@
 n, m = map(int, input().split())
-l = [i for i in range(1, n + 1)]
+l = list(range(1, n + 1))
 
 for _ in range(m):
     i, j = map(int, input().split())
