@@ -1,5 +1,4 @@
 l = list(map(int, input().split()))
-# sort_l = sorted(l)
 if l == sorted(l):
     print('ascending')
 elif l == sorted(l,reverse=True):
